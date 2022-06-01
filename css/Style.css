@@ -517,6 +517,59 @@ footer#footermengao img{
     margin-top: 1vh;
     margin-right: 1.5vw;
 }
+div#Noticiaspt1{
+    position:absolute;
+    margin-left: 0.2vw;
+    width: 58.5vw;
+    margin-top: 103.2vh;
+}
+div#Noticiaspt1 > div{
+    height: 35.2vh;
+    border-bottom: 1px solid rgb(205, 205, 205);
+    color:#06AA48;
+    font-size: 0.75em;
+    line-height: 28.5px;
+    font-family: "Open Sans";
+}
+div#Noticia1 p#not1p{
+    margin-top: -26.9vh;
+    margin-left: 27.5vw;
+    letter-spacing: -0.9px;
+}
+#infonot1{
+    color: rgb(89, 89, 89);
+    font-size: 0.98em;
+    margin-left: 27.5vw;
+    font-weight: 500;
+    letter-spacing: -0.08px;
+}
+#aovivo{
+    position: absolute;
+    margin-top: -31.8vh;
+    margin-left: 27.5vw;
+    border-radius: 3px;
+    height: 3.1vh;
+    width: 4.3vw;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+
+    background-color: rgb(255, 0, 0);
+    animation: blinker 2s linear infinite;
+}
+#aovivo p{
+    font-size: 0.83em;
+    margin-top: -4px;
+}
+#icontv{
+    position: absolute;
+    margin-left: 5.95vw;
+}
+@keyframes blinker {
+    50% {
+      opacity: 50%;
+    }
+  }
 footer#footerpagina{
     background-color: #06AA48;
     color: white;
